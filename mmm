@@ -1,0 +1,50 @@
+<!DOCTYPEhtml> <!--.html-->
+<html>
+<head>
+ <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style> table,tr,th,td{
+ border:1px solid black; border-collapse:collapse;
+}
+</style><!-- border-collapse:collapse 단선으로,반대로 separate -->
+<title>강의시간표</title>
+</head>
+<body>
+ <table>
+ <caption>강의시간표</caption>
+ <thead>
+ <tr>
+  <th>-</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+  <td>1교시</td>
+ </tr>
+ <tr>
+  <td>2교시</td>
+ </tr>
+ <tr>
+  <td>3교시</td>  
+ </tr>
+ <tr>
+  <td>4교시</td>
+ </tr>
+ <tr>
+  <td>5교시</td>
+ </tr>
+ <tr>
+  <td>6교시</td>
+ </tr>
+ <tr>
+  <td>7교시</td>
+ </tr>
+ <tr>
+  <td>8교시</td>
+ </tr>
+ <tr>
+  <td>9교시</td>
+ </tr>
+ </tbody>
+ </table>
+</body></html>  
