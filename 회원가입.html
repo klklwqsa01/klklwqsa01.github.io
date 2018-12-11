@@ -4,40 +4,30 @@
         <meta charset="utf-8">
         <title>새벽농원 회원가입</title>
         <style>
-            .input_wrap{
-             
+            .input_wrap{         
             }
             .i_wrap .row .i_wrap{ margin-bottom: 5px; 
-            border: 1px solid gray;}
-            
-            
-            
+            border: 1px solid gray;}        
+                      
             body,h1,h2,h3,h4,h5,h6,p,ul,fieldset{
                 margin: 0; padding: 0;
-                font-size: 12px; color: dimgray;
-                
-            }
-            
+                font-size: 12px; color: dimgray;               
+            }           
             
             fieldset{border: 0;}
             legend{
                 font-size: 0; line-height: 0; visibility: hidden;
                 width: 0; height: 0; overflow: hidden;
                 text-indent: -9999px;
-            }
+            }            
+            inptu{ vertical-align: middle;}            
+            a{ text-decoration: none; }          
             
-            inptu{ vertical-align: middle;}
-            
-            a{ text-decoration: none; }
-            
-            /* form */
             .input_wrap{ }
             .input_wrap .col{ border: 1px solid gary;
                 display: table;
-                width: 100%;
-                
-               
-                }
+                width: 100%;  
+               }
             .input_wrap .col .row{ background-color: whitesmoke;
                 display: table-row;
                 }
@@ -59,14 +49,10 @@
                 height: 5px;
                 padding: 10px;
                 padding: 8px 20px;
-                }
-            
+            }
             .selet{
                 border: 1px solid black;
-                
-                width: 100%;}
-            
-            
+                 width: 100%;}           
             .btn_phone_confirm{
                 border: 1px solid black;
                 border-radius: 3px;
@@ -76,9 +62,7 @@
                 font-size: 10px;
                 font-weight: bold;
                 color: dimgray
-               
             }
-            
             .btn_address{
                 border: 1px solid black;
                 background-color: darkgray;
@@ -90,9 +74,7 @@
                 font-weight: bold;
                 color: #fff;
                 vertical-align: middle;
-                
             }
-            
             .inpTxt{
                 border: 1px solid #d9d9d9;
                 height: 34px;
@@ -101,7 +83,6 @@
                 font-size: 12px;
                 color: gray;
             }
-            
             .btn_road_add{border: 1px solid black;
                 border-radius: 3px;
                 display: inline-block;
@@ -110,7 +91,6 @@
                 font-size: 10px;
                 font-weight: bold;
                 color: dimgray
-                
             }
             .btn{
                 display: inline-block;
@@ -122,20 +102,15 @@
                 box-sizing: border-box;
                 border-radius: 8px;
             }
-            
             .btn_type02{
                 background-color: #fff;
                 border: 1px solid #d9d9d9;
                 color: #747474;
-                
             }
-            
             .w106{ width: 106px;}
             .w106{ width: 123px;}
             .w106{ width: 165px;}
             .w106{ width: 180px;}
-            
-            
         </style>
     </head>
     <body>
@@ -146,165 +121,75 @@
                     <legend>필수정보입력 입력폼</legend>
                     <div class="con_tit">
                         <h2>필수정보입력</h2>
-                        <p>
-                        문자와 이메일 수신동의를 체크해 주시면 진행되는 이벤트 및 다양한 쇼핑 정보를 받아보실 수 있습니다.
-                        </p>
-                    </div><!--//con_tit -->
-                    
+                    </div>
                     <div class="input_wrap">
                         <div class="col">
                             <div class="row">
-                                <div class="col-tit">이름
+                                <div class="col-tit">아이디
                                 </div>
                                 <div class="col-content">
                                     
                                     <input type="text" 
                                            id="UserName"
                                            class="inpTxt w180"
-                                           placeholder="이름입력"
+                                           placeholder="영문,숫자조합 4~12자"
                                            >
-                                    
                                 </div>
-                            </div><!--//row -->
-                            
+                            </div>
                             <div class="row">
-                                <div class="col-tit">아이디</div>
+                                <div class="col-tit">비밀번호</div>
                                 <div class="col-content">
                                     <input type="text" 
                                            class="inpTxt w180"
-                                           placeholder="영문,숫자조합 4~12자">
-                                    
+                                           placeholder="영문,숫자조합 4~12자">                                    
                                 </div>
-                            </div><!--//row -->
-                            
+                            </div>                            
                              <div class="row">
-                                <div class="col-tit">비밀번호</div>
+                                <div class="col-tit">이름</div>
                                 <div class="col-content">
                                     <input type="password" class="inpTxt"
-                                           placeholder="영문,숫자조합 4~12자">
-                                    
+                                           placeholder="이름입력">                             
                                 </div>
-                            </div><!--//row -->
-                            
-                             <div class="row">
-                                <div class="col-tit">비밀번호 확인</div>
-                                <div class="col-content">
-                                     <input type="password" 
-                                            class="inpTxt w180"
-                                           placeholder="비밀번호 재입력" >
-                            
-                                </div>
-                            </div><!--//row -->
-                            
-                             <div class="row">
-                                <div class="col-tit">휴대폰</div>
-                                <div class="col-content">
-                                    <select>
-                                        <option value="010">010</option>
-                                        <option value="011">011</option>
-                                        <option value="011">016</option>
-                                    </select>
-                                    -
-                                    <input type="text" 
-                                           id="HPhone2"
-                                           class="phone">
-                                    -
-                                    <input type="text" 
-                                           id="HPhone2"
-                                           class="phone">
-                                    
-                                    <a href="#" class="btn_phone_confirm"> 인증번호발송 </a>
-                                    <input type="checkbox" id="phone">
-                                    <label for="phone">문자 수신동의 </label>
-                                    
-                                </div>
-                            </div><!--//row -->
+                            </div>
+                             
                             
                                   <div class="row">
-                                <div class="col-tit">이메일</div>
+                                <div class="col-tit">주민등록번호</div>
                                 <div class="col-content">
                                         <input type="text" 
                                            id="Email1" 
                                            class="email w180">
-                                    @
-                                        <input type="text" id="Email2">
-                                    
-                                   <select>
-                                        <option value="naver.com">naver.com</option>
-                                        <option value="gmail.com">gmail.com</option>
-                                        <option value="hanmail.net">hanmail.net</option>
-                                   </select> 
-                                   
-                                    <input type="checkbox" id="mail_agree">
-                                    <label for="mail_agree">이메일 수신동의</label>
+                                    -
+                                        <input type="text" id="Email2">                                       
                                 </div>
-                            </div><!--//row -->
-                            
-                                  <div class="row">
-                                <div class="col-tit ">생년월일</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-tit">휴대폰</div>
                                 <div class="col-content">
-                                    <input type="text" title="기간선택"
-                                           class="month w180">
-                                    
-                                    <input type="radio" id="solar" name="isLunar" value="0">
-                                    <label for="solar">양력</label>
-                                    <input type="lunar" id="lunar">
-                                    <label for="isnLunar">음력</label>
-                                    
+                                    -                                    -
+                                    <input type="text" 
+                                           id="HPhone2"
+                                           class="phone">
+                                    -
+                                    <input type="text" 
+                                           id="HPhone2"
+                                           class="phone">                             
                                 </div>
-                            </div><!--//row -->
-                        </div>    
-                    </div><!--//input_wrap -->
-                    
-                </fieldset>   
-                <fieldset>
-                    <legend>선택정보입력 입력폼</legend>
-                    <h3>선택정보입력</h3>
-                    <div class="input_wrap">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col-tit">성별</div>
-                                <div class="col-content">
-                                    <input type="radio" id="W" name="sex" value="0">
-                                    <label for="여자">여자</label>
-                                     <input type="radio" id="M" name="sex" value="0">
-                                    <label for="남자">남자</label>
-                  </div>  
-                                
-                                <div class="col-tit"> </div>
-                            </div><!--// row-->
-
-                            <div class="row">
+                            </div>
+                              <div class="row">
                                 <div class="col-tit">주소</div>
                                 <div class="col-content">
                                     <p class="i_wrap">
                                         <input type="text">
                                         <a href="#" class="btn_address"> 우편번호 </a>
                                         <input type="checkbok" id="post_agree" class="inpTxt">
-
                                         <label for="post_agree"> 우편 수신 
-                                        동의 </label>
-                                        
-                                    </p>
-                                    <p>
-                                        <input type="text" class="inpTxt w930">
-                                        <a href="#" class="btn_road_add"> 지번주소 </a>
-                                    </p>
-                                    <p>
-                                        <input type="text"class="inpTxt">
-                                        <a href="#"></a>
-
+                                        동의 </label>   
                                     </p>
                                 </div>
-
-                            </div><!--// row--> 
-                            
-                            
-                            
-                        </div>    
-
-                    </div>
-                </fieldset> 
+    </div>
+                </fieldset>   
+                
             </form>
         </div>
     </body>
