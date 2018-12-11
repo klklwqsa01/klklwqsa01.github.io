@@ -1,0 +1,172 @@
+/* 나눔 고딕 웹 폰트를 불러옵니다. */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {
+	margin: 0;
+	padding: 0;
+	font-family: '나눔 고딕', '맑은 고딕', 'Calibri', 'Arial';
+}
+/* 로고 부분의 디자인을 정의합니다. */
+.logo {
+	padding-left: 25px;
+	text-align: center;
+}
+/* 네비게이션 부분의 디자인을 정의합니다. */
+.navigation {
+	background-color: #595959;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	font-family: '배달의민족 도현', 'Arial';
+}
+.navigation > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+.navigation > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation > li > a:hover {
+	color: #c1c1c1;
+}
+/* 홈 페이지의 디자인을 정의합니다. */
+.home {
+	text-align:center;
+	display: block;
+}
+.home img {
+	width: 960px;
+}
+/* 소개 페이지의 디자인을 정의합니다. */
+.introductions {
+	text-align: center;
+}
+.introductions .india {
+	width: 560px;
+	border: 5px solid #c1c1c1;
+	margin: 20px 10px;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 15px;
+}
+.introductions .india h1 {
+	font-family: '배달의민족 도현', 'Arial';
+}
+.introductions .india p {
+	font-size: 14px;
+}
+.introductions .india img{
+	width: 480px;
+}
+.introductions .ourvideo {
+	width: 720px;
+	margin: 20px 10px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.introductions .ourvideo h1 {
+	font-family: '배달의민족 도현', 'Arial';
+}
+/* 문제 페이지의 디자인을 정의합니다. */
+.problems {
+	text-align: center;
+}
+.problems h1 {
+	font-family: '배달의민족 도현', 'Arial';
+}
+.problems .youtube {
+	width: 720px;
+	margin: 25px 15px;
+	margin: 0 auto;
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+}
+.problems .description {
+	width: 840px;
+	border: 5px solid #c1c1c1;
+	margin: 20px 10px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.problems .description img {
+	width: 640px;
+}
+.problems .description h2 {
+	font-family: '배달의민족 도현', 'Arial';
+	font-size: 25px;
+}
+.problems .description .text {
+	text-align: left;
+	font-size: 18px;
+}
+/* 해결책 페이지의 디자인을 정의합니다. */
+.solutions {
+	text-align: center;
+}
+.solutions h1 {
+	font-family: '배달의민족 도현', 'Arial';
+}
+.solutions .description {
+	width: 840px;
+	border: 5px solid #c1c1c1;
+	margin: 20px 10px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.solutions .description img {
+	width: 640px;
+}
+.solutions .description h2 {
+	font-family: '배달의민족 도현', 'Arial';
+	font-size: 25px;
+}
+.solutions .description .text {
+	text-align: left;
+	font-size: 18px;
+}
+/* 참고문헌 페이지의 디자인을 정의합니다. */
+.bibliography {
+	text-align: center;
+}
+.bibliography h1 {
+	font-family: '배달의민족 도현', 'Arial';
+}
+.bibliography .description {
+	width: 840px;
+	border: 5px solid #c1c1c1;
+	margin: 20px 10px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.bibliography .description img {
+	width: 640px;
+}
+.bibliography .description .text {
+	padding: 20px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* 페이지 하단의 디자인을 정의합니다. */
+footer {
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 15px;
+	font-size:12px;
+	background-color:#666;
+	text-align: center;
+	color:white;
+}
