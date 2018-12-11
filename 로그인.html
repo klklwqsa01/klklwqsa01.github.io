@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>새벽농원 로그인</title>
+        <style>
+            .input_wrap{         
+            }
+            .i_wrap .row .i_wrap{ margin-bottom: 5px; 
+            border: 1px solid gray;}        
+                      
+            body,h1,h2,h3,h4,h5,h6,p,ul,fieldset{
+                margin: 0; padding: 0;
+                font-size: 12px; color: dimgray;               
+            }           
+                        fieldset{border: 0;}
+            legend{
+                font-size: 0; line-height: 0; visibility: hidden;
+                width: 0; height: 0; overflow: hidden;
+                text-indent: -9999px;
+            }            
+            inptu{ vertical-align: middle;}            
+            a{ text-decoration: none; }          
+            
+            .input_wrap{ }
+            .input_wrap .col{ border: 1px solid gary;
+                display: table;
+                width: 100%;  
+               }
+            .input_wrap .col .row{ background-color: whitesmoke;
+                display: table-row;
+                }
+            .input_wrap .col .row .col-tit{
+                background-color: darkgrey;
+                border: 1px solid gray;
+                display: table-cell;
+                width: 15%; 
+                height: 5px; vertical-align: middle;
+                padding: 10px;
+                padding: 8px 20px;
+                font-size: 12px;
+                }
+            
+            .input_wrap .col .row .col-content{ 
+                border: 1px solid gray;
+                display: table-cell;
+                width: 85%;
+                height: 5px;
+                padding: 10px;
+                padding: 8px 20px;
+               }
+            .inpTxt{
+                border: 1px solid #d9d9d9;
+                height: 34px;
+                padding: 9px;
+                box-sizing: border-box;
+                font-size: 12px;
+                color: gray;
+            }
+       	 </style>
+    </head>
+	<body>
+        <div class="content">
+            <h2 class="tit">회원가입</h2>
+            <form id="" name="" method="post" action="">
+                <fieldset>
+                    <legend>필수정보입력 입력폼</legend>
+                    <div class="con_tit">
+                        <h2>필수정보입력</h2>
+                    </div>
+                    <div class="input_wrap">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-tit">아이디
+                                </div>
+                                <div class="col-content">
+                                    
+                                    <input type="text" 
+                                           class="inpTxt w180"
+                                           placeholder="영문,숫자조합 4~12자">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-tit">비밀번호</div>
+                                <div class="col-content">
+                                    <input type="text" 
+                                           class="inpTxt w180"
+                                           placeholder="영문,숫자조합 4~12자">                                    
+                                </div>
+                            </div>       
+	</fieldset>   
+                
+            </form>
+        </div>
+    </body>
+</html>                     
